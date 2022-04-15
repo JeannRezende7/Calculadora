@@ -2,6 +2,12 @@
 Calculadora Simples que pode ser feita com com if ou Switch
 
  ````
+ var n1, n2: double;
+  var x: Char;
+begin
+  n1:= strToFloat(lb_num1.Text);
+  n2:= strToFloat(lb_num2.Text);
+  
 //utilização do switch
   x := lb_operador.Text[1];
    case x of
